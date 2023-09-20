@@ -1,0 +1,112 @@
+license:
+
+spawn-location:
+
+combat:
+  timer: 15.0
+
+  allowed-commands:
+    - /r
+    - /msg
+    - /w
+    - /tell
+
+  disabled-in-worlds:
+    - disabled-world
+
+fix:
+  cost: 2000
+
+drop-settings:
+  lore:
+    - "&7 "
+    - "&7Clicca qui per attivare o"
+    - "&7disattivare la raccolta di"
+    - "&7questo drop."
+    - "&7 "
+    - "&fStato: %enabled%"
+
+  enabled-text: "&aAttivato"
+
+  disabled-text: "&cDisattivato"
+
+ender-pearl:
+  timer: 10.0
+
+on-join:
+  give-kit: true
+
+  kit-command: "kit give base %player%"
+
+chat:
+  enabled: true
+
+  format: "&7%player-name%: &f%message%"
+
+on-death:
+  commands:
+    - 'kit give base %player%'
+
+  money-killer: 300
+
+  give-effect: true
+
+  effect-name: "regeneration"
+
+  effect-strength: 3
+
+  effect-time: 5
+
+  money-assist: 150
+
+axe:
+  increment: 3
+
+block-manager:
+  block-timer: 15.0
+
+  web-timer: 10.0
+
+  blocking-block: OBSIDIAN
+
+  whitelisted-blocks:
+    - OBSIDIAN
+    - WEB
+
+streak:
+  threshold: 5
+
+  give-item: false
+
+  item-name: DIAMOND
+
+no-fall:
+  spawn-height: 170
+
+bounties:
+  chance: 75
+
+  minimum: 8
+
+  maximum: 13
+
+  multiplier: 100
+
+punch:
+  levels:
+    '0':
+      straight: false
+      horizontal: 1
+      vertical: 0.45
+    '1':
+      straight: true
+      horizontal: 1
+      vertical: 0.45
+    '2':
+      straight: true
+      horizontal: 1
+      vertical: 0.45
+
+  straight: true
+  horizontal: 1
+  vertical: 0.45

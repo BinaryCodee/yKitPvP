@@ -1,0 +1,88 @@
+name: yKitPvP
+version: '1.0'
+main: me.sonoricky.ykitpvp.KitPvP
+authors: [ SonoRicky ]
+description: KitPvP Core per realizzare il miglior server KitPvP.
+softdepend: [ PlaceholderAPI ]
+commands:
+  kitpvp:
+    description: Comando principale per tutto.
+    aliases: [ kp, ykitpvp ]
+
+  gma:
+    description: Imposta la modalità avventura a te o ad un altro giocatore.
+    aliases: [ gm2 ]
+
+  gmc:
+    description: Imposta la modalità creativa a te o ad un altro giocatore.
+    aliases: [ gm1 ]
+
+  gmsp:
+    description: Imposta la modalità spettatore a te o ad un altro giocatore.
+    aliases: [ gm3 ]
+
+  gms:
+    description: Imposta la modalità soppravvivenza a te o ad un altro giocatore.
+    aliases: [ gm0 ]
+
+  tpall:
+    description: Teletrasporta tutti i giocatori da te.
+    aliases: [ teleportall ]
+
+  tp:
+    description: Teletrasporta un qualsiasi giocatore da un altro giocatore.
+    aliases: [ teleport ]
+
+  tphere:
+    description: Teletrasporta nella tua posizione un giocatore.
+
+  discord:
+    description: Mostra un link con l'invito per il server discord del server.
+    aliases: [ ds ]
+
+  dropsettings:
+    description: Comando per gestire le impostazioni di raccoglimento degli oggetti.
+    aliases: [ drops, drop-settings ]
+
+  fix:
+    description: Aggiusta l'inventario.
+    aliases: [ fixall, aggiusta, ripara ]
+
+  fly:
+    description: Metti in fly te stesso o un altro giocatore.
+    aliases: [ ]
+
+  givexp:
+    description: Trasferisce un valore di livelli di XP ad un altro giocatore.
+    aliases: [ givelevels, expgive, paylevels, payexp, xpgive, payxp ]
+
+  invsee:
+    description: Apri l'inventario di un giocatore.
+    aliases: [ inv ]
+
+  spawn:
+    description: Teletrasporta un giocatore allo spawn.
+
+  stack:
+    description: Unisci le tue pozioni tutte in un unico slot.
+    aliases: [ pot ]
+
+  store:
+    description: Mostra il link dello store del server.
+    aliases: [ buy, vip ]
+
+  trash:
+    description: Apre il cestino per rilasciare oggetti inutili.
+    aliases: [ cestino, mondezza, disposal, monnezza ]
+
+  vanish:
+    description: Metti in vanish te stesso o un altro giocatore.
+    aliases: [ v ]
+
+  vote:
+    description: Mostra il link del sito in cui votare il server.
+    aliases: [ vota ]
+
+  withdraw:
+    description: Crea assegni.
+    aliases: [ assegno, assegni ]

@@ -1,0 +1,145 @@
+# Plugin fatto da SonoRicky su AquariumStudios.
+# (Il creatore principale è ImGqbbo che purtroppo ha quittato, SonoRicky ha semplicemente continuato il progetto cercando di renderlo migliore.)
+
+# I permessi per ogni comando sono "kitpvp.command.(Comando)"
+
+# In caso di ulteriore bisogno leggi il file README.md oppure contatta SonoRicky#8724 su Discord.
+
+player-offline: "&cIl giocatore è offline."
+no-permission: "&cNon hai il permesso."
+
+discord: "&9DISCORD: &7discord.server.it"
+store: "&aSTORE: &7store.server.it"
+vote: "&fVOTA: &7vota.server.it"
+
+gamemodes:
+  creative: "&7Modalità impostata su &bCREATIVA&7."
+  creative-for-player: "&7Modalità impostata su &bCREATIVA &7per &f%name%&7."
+  creative-by-staff: "&7Modalità impostata su &bCREATIVA &7da &f%name%&7."
+
+  adventure: "&7Modalità impostata su &eAVVENTURA&7."
+  adventure-for-player: "&7Modalità impostata su &eAVVENTURA &7per &f%name%&7."
+  adventure-by-staff: "&7Modalità impostata su &eAVVENTURA &7da &f%name%&7."
+
+  spectator: "&7Modalità impostata su &dSPECTATOR&7."
+  spectator-for-player: "&7Modalità impostata su &dSPECTATOR &7per &f%name%&7."
+  spectator-by-staff: "&7Modalità impostata su &dSPECTATOR &7da &f%name%&7."
+
+  survival: "&7Modalità impostata su &aSURVIVAL&7."
+  survival-for-player: "&7Modalità impostata su &aSURVIVAL &7per &f%name%&7."
+  survival-by-staff: "&7Modalità impostata su &aSURVIVAL &7da &f%name%&7."
+
+teleport:
+  usage: "&7Usa: &f/tp <player>\n&7Oppure usa: &f/tp <player> <player>"
+  tp-yourself-error: "&cNon puoi teletrasportarti da te stesso."
+  success: "&7Ti sei teletrasportato da &f%name%&7."
+  tp-other-self: "&cNon puoi teletrasportare un player da se stesso."
+  success-different: "&7Hai teletrasportato &f%name% &7da &f%target%7."
+
+tphere:
+  usage: "&7Usa: &f/tphere <player>"
+  success: "&7Hai teletrasportato da te &f%name%&7."
+  tp-yourself-error: "&cNon puoi teletrasportarti da te stesso."
+
+tpall:
+  success: "&aTutti i giocatori sono stati teletrasportati da te correttamente."
+
+fly:
+  enabled: "&aFly abilitata."
+  disabled: "&cFly disabilitata."
+  enabled-for-player: "&7Fly abilitata per &f%name%&7."
+  disabled-for-player: "&7Fly disabilitata per &f%name%&7."
+  enabled-by-staff: "&7Fly abilitata da &f%name%&7."
+  disabled-by-staff: "&7Fly disabilitata da &f%name%&7."
+
+vanish:
+  enabled: "&aVanish abilitata."
+  disabled: "&cVanish disabilitata."
+  enabled-for-player: "&7Vanish abilitata per &f%name%&7."
+  disabled-for-player: "&7Vanish disabilitata per &f%name%&7."
+  enabled-by-staff: "&7Vanish abilitata da &f%name%&7."
+  disabled-by-staff: "&7Vanish disabilitata da &f%name%&7."
+
+invsee:
+  usage: "&7Usa: &f/invsee <player>"
+  success: "&7Inventario di &f%name% &7aperto correttamente."
+
+freeze:
+  usage: "&7Usa: &f/freeze <player>"
+
+trash:
+  success: "&aCestino aperto correttamente."
+
+obsidianbreaker:
+  time: "&cAspetta altri &f%time% secondi &cprima di spaccare un'altro blocco."
+  success: "&aBlocco di ossidiana rotto correttamente."
+
+withdraw:
+  usage: "&7Usa: &f/withdraw <valore>"
+  success: "&aHai creato un assegno da $%value%."
+  claimed: "&aHai riscattato un assegno da $%value%."
+  title: "&aValore:&f %value%" # ATTENZIONE: %value% LASCIALO DA SOLO, SENZA METTERCI DAVANTI NULLA. SE LO VUOI COLORARE METTI IL COLORE DOPO I :. Esempio: &aValore:&e %value%
+  title-startwith: "&aValore:&f " #Qua metti il titolo che hai messo su TITLE: senza %value%
+  not-enought-money: "&cNon hai abbastanza soldi."
+  invalid-number: "&cIl numero inserito non è valido."
+
+bounties:
+  bounty-claimed: "&c%killer% &7ha riscattato la taglia di &b%player% &7da &6&l$%bounty%&7."
+  bounty-set: "&7Impostata una taglia di &6&l$%bounty% &7su &b%player%&7."
+
+spawn:
+  no-spawn-found: "&cIl punto di spawn non è stato trovato, contatta gli amministratori del server."
+
+anti-build:
+  build-mode-on: "&7Modalità costruzione &aattivata&7."
+  build-mode-off: "&7Modalità costruzione &cdisattivata&7."
+
+combat:
+  command-disabled: "&cNon puoi eseguire questo comando durante il combattimento."
+
+stats:
+  usage-player: "&c/stats <giocatore>"
+  not-found: "&cIl giocatore richiesto non è stato trovato."
+  kills-edited: "&7Uccisioni modificate per &7%player%."
+  deaths-edited: "&7Morti modificate per &7%player%."
+  streak-edited: "&7Streak modificata per &7%player%."
+  broadcast-streak: "&a%player% &7ha raggiunto una serie di uccisioni pari a &c%streak%&7!"
+
+kills:
+  default-death: "&b%player% &7è morto."
+  death:
+    - "&c%killer% &7ha squartato &b%player%"
+    - "&c%killer% &7ha usato la radice quadrata di 2 per uccidere &b%player%"
+    - "&b%player% &7è stato mangiato da &c%killer%"
+    - "&b%player% &7è diventato un ippopotamo grazie a &7%killer%"
+  assist: "&7Hai aiutato ad uccidere &c%player% &7e hai guadagnato &a$50&7."
+  kill: "&7Hai ucciso &c%player% &7e hai guadagnato &a$200&7."
+
+fix:
+  success: "&cInventario riparato correttamente."
+  not-enough-money: "&cNon hai abbastanza soldi."
+
+givexp:
+  sent: "&7Hai inviato correttamente &e%levels% &7livelli a &f%name%&7."
+  player-not-found: "&cIl giocatore richiesto non è stato trovato."
+  usage: "&c/givexp <giocatore> <quantità>"
+  not-enough-levels: "&cNon possiedi abbastanza livelli."
+
+admin:
+  no-sub-command-found: "&cNon è stato trovato alcun sotto comando con questo nome."
+  malformed-command: "&cUso del comando non corretto, per maggiori informazioni esegui /kitpvp."
+  new-spawn-set: "&7Nuovo punto di spawn impostato."
+  stats-edited: "&7Statistiche per il giocatore &e%player% &7modificate correttamente."
+  plugin-reloaded: "&7Configurazione ricaricata correttamente."
+  bounty-edited: "&7Impostata una taglia di &6&l%bounty% &7su &a%player%&7."
+  help-command:
+    - "&bzKitPvP"
+    - ""
+    - "&b/kitpvp reload &7- &fRicarica la configurazione del plugin"
+    - "&b/kitpvp setstats <kills/deaths/streak> <player> <value> &7- &fImposta le statistiche di un giocatore"
+    - "&b/kitpvp setbounty <player> <value> &7- &fImposta la taglia di un giocatore"
+    - "&b/kitpvp setspawn &7- &fImposta il punto di spawn"
+    - "&b/kitpvp build &7- &fAttiva/disattiva modalità costruzione"
+    - "&b/kitpvp alert <messaggio> &7- &fInvia una messaggio a tutti i giocatori"
+    - "&b/kitpvp kitadmin &7- &fGestisci i kit del server"
+    - ""
